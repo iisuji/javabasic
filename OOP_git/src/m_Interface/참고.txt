@@ -1,0 +1,27 @@
+
+[ class modifier ]
+
+__1__ class A {
+
+	__2__ int A;
+	__3__ A(){}
+	__4__ void A(){}
+}	
+
+	
+[1] public / final / abstract 클래스 앞에 붙일 수 있는 것
+[2] public / private / protected / static / final 멤버변수 앞에 붙일 수 있는 것
+[3] public / private / protected 생성자 앞에 붙일 수 있는 것 = 접근지정자 모두
+[4] public / private / protected / static / final / abstract 일반 메소드 앞에 붙일 수 있는 것 
+
+==============================================
+
+
+[ interface ]  ---> 상수하고 추상함수만 가지고 있음 
+
+interface B{
+	[public static final] int B;    // interface 변수 안에 있는 건 모두 "상수"
+	// 생성자 함수 없음
+	
+	[public abstract] void B(); // 함수인데 뒤에 {} 가 없음 
+}
